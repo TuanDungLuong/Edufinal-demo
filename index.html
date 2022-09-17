@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous"
+      />
+      <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+      />
+      <link
+    href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+    rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style2.css" />
+      <link rel="icon" type="image/x-icon" href="/img/icon.png">
+      <title>Edufinal</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand"><img src="img/logomenu.png" width="20%">  Edufinal</a>
+  
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+  
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link" style="color: yellow;">Trang Chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="doingunhansu.html" class="nav-link">Đội ngũ nhân sự</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Liên Lạc</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Showcase -->
+        <section
+        class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+        >
+          <br>
+          <br>
+          <br>
+            <div class="container">
+              <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                  <h1>Dạy Học Lập Trình<span class="text-warning"> Miễn Phí </span></h1>
+                  <p class="lead my-4">
+                    Đừng chạy theo thành công, hãy theo đuổi sự ưu tú. Khi đó, thành công sẽ theo đuổi bạn.
+                  </p>
+                  <p class="lead my-4 text-align-right">
+                    - Rancho
+                  </p>
+                  
+                </div>
+                <img
+                  class="img-fluid w-50 d-none d-sm-block"
+                  src="img/showcase.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+        </section>
+        <!-- Newsletter -->
+        <section class="bg-primary text-light p-5">
+            <div class="container">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mb-md-0">Nhập email để nhận quà tặng</h3>
+  
+                    <div class="input-group news-input">
+                        <input type="text" class="form-control" placeholder="Email" />
+                        <button class="btn btn-dark btn-lg" type="button" href="#">Nhận quà</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Boxes -->
+        <section class="p-5">
+            <div class="container">
+                <div class="row text-center g-4">
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                <img src="img/python-logo.png" width="20%">
+                                </div>
+                                <h3 class="card-title mb-3">Python</h3>
+                                <p class="card-text">
+                                Hiện nay Python là ngôn ngữ lập trình phổ biến nhất thế giới,
+                                vậy nên việc học python khá quan trọng nếu bạn muốn làm một coder.
+                                </p>
+                                <a href="https://www.python.org/" class="btn btn-primary" target="_blank">Đọc Thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <img src="img/html-logo.png" width="19%">
+                                </div>
+                                <h3 class="card-title mb-3">HTML</h3>
+                                <p class="card-text">
+                                  HTML hay là Ngôn ngữ Đánh dấu Siêu văn bản.
+                                   Sử dụng HTML để xây dựng và cấu trúc lại các thành phần trong website hoặc ứng dụng. 
+                                   HTML có thể được hỗ trợ bởi các công nghệ như CSS và các ngôn ngữ kịch bản giống như JavaScript.
+                                </p>
+                                <a href="https://html.spec.whatwg.org/" class="btn btn-primary" target="_blank">Đọc Thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <img src="img/css-logo.png" width="19%">
+                                </div>
+                                <h3 class="card-title mb-3">CSS</h3>
+                                <p class="card-text">
+                                  Sử dụng đồng thời cả CSS và HTML có thể tạo ra một trang web động hoàn chỉnh.
+                                  CSS tìm và định dạng lại các phần tử được tạo ra bởi các ngôn ngữ đánh dấu (HTML).
+                                </p>
+                                <a href="https://www.w3schools.com/css/" class="btn btn-primary" target="_blank">Đọc Thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Learn Sections -->
+        <section id="learn" class="p-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="img/fundamentals.svg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Tại Sao Phải Học Lập Trình?</h2>
+                        <p class="lead">
+                        Trong xã hội ngày nay, các trẻ nhỏ nên tiếp xúc sớm với lập trình, 
+                        lập trình có rất nhiều lợi ích.
+                        </p>
+                        <p>
+                            Học lập trình giúp nuôi dưỡng những tư duy sáng tạo, 
+                            góp phần vào khả năng giải quyết vấn đề, phát triển logic 
+                            và nuôi dưỡng tiềm năng cá nhân, tạo động lực hướng đến nền kinh tế công nghệ.
+                        </p>
+                        <iframe width="100%" src="https://www.youtube.com/embed/nKIu9yen5nc" title="What Most Schools Don't Teach" frameborder="0" allow="accelerometer;
+                         autoplay; clipboard-write; encrypted-media; gyroscope;
+                          picture-in-picture" allowfullscreen></iframe>
+                        <br>
+                        <a href="https://aptechsaigon.edu.vn/vi-sao-ban-nen-hoc-lap-trinh-nhung-kha-nang-va-to-chat-can-co-de-hoc-lap-trinh" class="btn btn-light mt-3" target="_blank">
+                        <i class="bi bi-chevron-right"></i> Đọc Thêm
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+  
+        <section id="learn" class="p-5 bg-dark text-light">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md p-5">
+                        <h2>Sale lớn</h2>
+                        <p class="lead">
+                            Sale lớn, sale to cho những ai đang muốn học lập trình.
+                        </p>
+                        <p>
+                            Nhân dịp ngày lễ trung thu, chúng tôi giảm giá sốc các khóa học tại Edufinal, 
+                            mỗi khóa học có thể giảm giá từ 50% đến 70% tùy theo mức giá. Đăng kí ngay kẻo lỡ 
+                            cơ hội ngàn vàng này.
+                        </p>
+                        <a href="#" class="btn btn-light mt-3">
+                          <i class="bi bi-chevron-right"></i> Đăng kí
+                        </a>
+                    </div>
+                    <div class="col-md">
+                        <img src="img/developer_image.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Question Accordion -->
+        <section id="questions" class="p-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Các Câu hỏi Phổ Biến</h2>
+                <div class="accordion accordion-flush" id="questions">
+                <!-- Item 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#question-one"
+                        >
+                        Tôi có thể học lập trình offline không?
+                        </button>
+                        </h2>
+                        <div
+                          id="question-one"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#questions"
+                        >
+                            <div class="accordion-body">
+                              Bạn có thể, nhưng vì sự giới hạn của các thiết bị, vậy nên sẽ chỉ có một số 
+                              em học sinh được học offline với thầy(số học sinh có giới bạn.). Nhưng thầy
+                              vẫn khuyên các em học sinh tự học tại nhà hơn, chi phí vừa phải, thiết bị đầy đủ.
+                              nhưng nếu các bạn vẫn muốn theo học offline, thì đây là địa chỉ cho các bạn:
+                              
+                            </div>
+                            <p class="lead text-center">3V2P+3C7, QL7, Con Cuong, Con Cuông, Nghệ An, Việt Nam</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471.4139225531015!2d104.88573632363709!3d19.050042409942275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3130a8d363a7679f%3A0xf281b06ec06f5dca!2sPh%C3%B2ng%20Kh%C3%A1m%20Nha%20Khoa%20-%20Bs%20Thu!5e0!3m2!1svi!2s!4v1663013080414!5m2!1svi!2s" width=100% style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                <!-- Item 2 -->
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#question-two"
+                        >
+                          Có nên cho các bạn nhỏ học lập trình từ sớm không?
+                        </button>
+                    </h2>
+                        <div
+                          id="question-two"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#questions"
+                        >
+                            <div class="accordion-body">
+                                Trẻ em nên học lập trình vì không chỉ giúp chúng thành công trong tương lai nhờ được học những thứ cần thiết mà 
+                                còn khiến trẻ có kỹ năng tất cả vấn đề tốt hơn. Học lập trình nghĩa là tìm ra một giải pháp hữu hiệu cho một vấn đề. Điều này có nghĩa, 
+                                không có một đáp án duy nhất, không có sai và đúng mà luôn hướng đến việc sửa chữa, tìm ra thứ tối ưu, thỏa mãn nhiều tiêu chí nhất. Cách thức 
+                                linh hoạt này không đẩy trẻ vào việc bị ám ảnh bởi việc đúng hay sai tuyệt đối như phương pháp giáo dục truyền thống hiện tại.
+                                Một số nghiên cứu đã được thực hiện để kiểm nghiệm tác động của học lập trình với sự phát triển của trẻ em và các 
+                                nhà khoa học đã có những luồng ý kiến khác nhau.  Tuy nhiên, nhiều nhà tâm lý, chuyên gia khác lại thấy việc dạy lập trình cho trẻ nhỏ 
+                                không có vấn đề gì và không chiếm thời gian của những hoạt động thể chất, vui chơi ngoài trời hay đọc sách của trẻ. Thậm chí, học lập trình 
+                                nghiêm túc bên máy tính là một lựa chọn thay thế hiệu quả hơn việc để trẻ ngồi chơi game iPad.
+                            </div>
+                            </div>
+                        </div>
+                <!-- Item 3 -->
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#question-three"
+                        >
+                          Tôi nên học ngôn ngũ lập trình nào trước tiên?
+                        </button>
+                    </h2>
+                        <div
+                          id="question-three"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#questions"
+                        >
+                            <div class="accordion-body">
+                              Bạn nên học Python. Python là một ngôn ngữ khá dễ học, thích hơp dành cho người mới 
+                              và rất phổ biến. Ngoài đó Python còn có rất nhiều thư 
+                              viện bổ sung online cho con em tự học và khám phá. 
+                              Một khóa học python cơ bản tại Edufinal hiện nay chỉ 
+                              2 triệu rưỡi ~ 3 triệu.
+                            </div>
+                            <div class="accordion-body">
+                              Bạn cũng nên học HTML. HTML là ngôn ngữ đánh dấu siêu văn bản 
+                              để lập trình web. Vì HTML là một ngôn ngữ lập trình đơn giản
+                              và dễ hiểu, vậy nên cũng khuyến khích bạn học HTML.
+                            </div>
+                            </div>
+                        </div>
+                <!-- Item 4 -->
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#question-four"
+                        >
+                          Làm sao để đăng kí học lập trình?
+                        </button>
+                    </h2>
+                    <div
+                      id="question-four"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#questions"
+                    >
+                        <div class="accordion-body">
+                          Các bạn vào phần Sign up, sau đó nhập họ tên, số 
+                          điện thoại và địa chỉ vào chỗ chấm, sau đó bấm gửi, 
+                          tổng đài sẽ liên hệ với bạn sau. Bạn cũng có thể gọi trực 
+                          tiếp vào số: 1900 1 tông vào dép để được hỗ trợ.
+                        </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        
+        <!--contact-->
+        <section class="p-5" id="contact">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-md">
+                <h2 class="text-center mb-4">Liên Lạc</h2>
+                <ul class="list-group list-group-flush lead">
+                  <li class="list-group-item">
+                    <span class="fw-bold">Trụ sở chính:</span> 3V2P+3C7, QL7, Con Cuông, Nghệ An, Việt Nam
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Điện thoại tổng đài:</span> 1900 một tông vào dép
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Điện thoại học sinh:</span> 1900 hai tông vào dép
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Email tổng đài:</span> tongdai.edufinal.com
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Email học sinh:</span> hocsinh.edufinal.com
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md">
+                <div id="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.308721691269!2d104.88385101469707!3d19.050159387102767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3130a8d363a7679f%3A0xf281b06ec06f5dca!2sPh%C3%B2ng%20Kh%C3%A1m%20Nha%20Khoa%20-%20Bs%20Thu!5e0!3m2!1svi!2s!4v1663083393985!5m2!1svi!2s" width=100% height="300px" style="border-radius:3%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Footer-->
+        <div class="bg-dark text-light">
+          <div class="container">
+              <footer class="py-5">
+                <div class="row">
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>Trang Chủ</h5>
+                    <a href="index.html"><button class="btn btn-primary">Click Here</button></a>
+                  </div>
+                
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>Đội Ngũ Nhân Sự</h5>
+                    <a href="doingunhansu.html"><button class="btn btn-primary">Click Here</button></a>
+                  </div>
+                
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>Liên Lạc</h5>
+                    <a href="lienlac.html"><button class="btn btn-primary">Click Here</button></a>
+                  </div>
+
+                
+                  <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                      <h5>Chương Trình Tặng Quà Trung Thu</h5>
+                      <p>Nhập email để nhận quà tặng Trung Thu</p>
+                      <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Địa Chỉ Email</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                        <button class="btn btn-primary" type="button">Nhận</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                  <p>© 2022 Company, Inc. All rights reserved.</p>
+                  <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                  </ul>
+                </div>
+              </footer>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"
+        ></script>
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+  
+    </body>
